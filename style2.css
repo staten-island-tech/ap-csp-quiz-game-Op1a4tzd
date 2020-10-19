@@ -6,7 +6,7 @@
 
 .background{
     width: 100vw;
-    height: 730vh;
+    height: 750vh;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.8) 0%, rgba(255, 138, 0, 0.8) 15.62%, rgba(204, 255, 0, 0.8) 32.81%, rgba(0, 255, 102, 0.8) 49.48%, rgba(0, 240, 255, 0.8) 67.71%, rgba(189, 0, 255, 0.8) 81.77%, rgba(255, 0, 46, 0.8) 97.92%);
     opacity: 1;
     position: relative;
@@ -293,4 +293,33 @@
     overflow: hidden;
     top: 17vh;
     left: 45vw;
+}
+
+.resultbutton {
+    width: 60vw;
+    height: 20vh;
+    background: linear-gradient(rgba(0,0,0,1), rgba(22,22,22,1));
+    opacity: 1;
+    position: absolute;
+    top: 720vh;
+    left: 20vw;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    overflow: hidden;
+    z-index: 1;
+}
+.resulttext {
+    width: 50vw;
+    color: rgba(235,235,235,1);
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    font-family: Sanchez;
+    font-weight: Regular;
+    font-size: 70px;
+    opacity: 1;
+    text-align: center;
+    z-index: 2;
 }
